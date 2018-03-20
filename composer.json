@@ -1,5 +1,5 @@
 {
-  "name": "marceltk/elephant.io",
+  "name": "marceltk/elephant-io",
   "type": "library",
   "description": "Send events to a websocket real time engine though PHP",
   "keywords": [
@@ -22,6 +22,7 @@
     }
   ],
   "require": {
+    "wisembly/elephant.io": "^3.3"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0"
