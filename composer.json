@@ -1,5 +1,5 @@
 {
-  "name": "unisoft/ElephantIO",
+  "name": "unisoft/elephant-io",
   "type": "library",
   "description": "Send events to a websocket real time engine though PHP",
   "keywords": [
