@@ -2,9 +2,9 @@
 
 namespace ElephantIOModule;
 
-use Zend\EventManager\EventInterface;
 use Zend\ModuleManager\ModuleManagerInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
+use Zend\EventManager\EventInterface;
 
 class Module
 {
@@ -18,7 +18,7 @@ class Module
         return [
             'Zend\Loader\StandardAutoloader' => [
                 'namespaces' => [
-                    __NAMESPACE__ => __DIR__ . "/src/",
+                    __NAMESPACE__ => __DIR__ ,
                 ],
             ],
         ];
@@ -26,7 +26,7 @@ class Module
 
     public function getConfig()
     {
-        return include __DIR__ . '/config/module.config.php';
+        return include __DIR__ . '/../config/module.config.php';
     }
 
     public function getServiceConfig()

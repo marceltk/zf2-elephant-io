@@ -32,22 +32,6 @@
       "module": "ElephantIOModule"
     }
   },
-  "autoload": {
-    "psr-0": {
-      "ElephantIOModule\\": "src/"
-    }
-  },
-  "autoload": {
-    "psr-4": {
-      "ElephantIOModule\\": [
-        "src/",
-        "test/"
-      ]
-    }
-  },
-  "config": {
-    "bin-dir": "bin"
-  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
