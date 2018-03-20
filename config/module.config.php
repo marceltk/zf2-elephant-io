@@ -2,11 +2,15 @@
 
 return [
 
-    'service_manaer' => [
+    'service_manager' => [
         'factories' => [
-            'ElephantIO\Service\SocketIOService' => function ($sm) {
-                return new \ElephantIO\Service\SocketIOService($sm);
+            \Unisoft\ElephantIO\Service\SocketIOService::class => function ($sm) {
+                return new \Unisoft\ElephantIO\Service\SocketIOService($sm);
             },
+        ],
+        
+        'aliases' => [
+            'elephant-io' => \Unisoft\ElephantIO\Service\SocketIOService::class,
         ],
     ],
 
