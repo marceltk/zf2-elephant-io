@@ -1,5 +1,5 @@
 {
-  "name": "marceltk/elephant-io",
+  "name": "unisoft/ElephantIO",
   "type": "library",
   "description": "Send events to a websocket real time engine though PHP",
   "keywords": [
