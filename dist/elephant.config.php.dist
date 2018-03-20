@@ -1,0 +1,8 @@
+<?php
+
+return [
+    'elephant-io' => [
+        'endpoint' => 'localhost',
+        'port' => 9001,
+    ],
+];
