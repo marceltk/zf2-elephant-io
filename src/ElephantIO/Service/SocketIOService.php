@@ -1,6 +1,6 @@
 <?php
 
-namespace Unisoft\ElephantIO\Service;
+namespace ElephantIOModule\Service;
 
 use ElephantIO\Client;
 use ElephantIO\Engine\SocketIO\Version1X;
